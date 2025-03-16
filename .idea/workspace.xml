@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4787e5b-9b5d-4bcf-ae66-38fabf66d4e5" name="Changes" comment="update frontend code and delete useless sql file">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7bab25a4-a15a-45e8-a3b8-d75c2a8150cd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7bab25a4-a15a-45e8-a3b8-d75c2a8150cd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_info.sql" beforeDir="false" afterPath="$PROJECT_DIR$/user_info.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/历史课表.sql" beforeDir="false" afterPath="$PROJECT_DIR$/历史课表.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/教师信息.sql" beforeDir="false" afterPath="$PROJECT_DIR$/教师信息.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2tFLAMeeG2UuUyVSZdRujADT4fZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.app.executor": "Run",
+    "Python.本学年课程信息导入.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "database.data.extractors.current.export.id": "SQL Inserts",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/CQUPT/排课系统/pre-schedule-sys-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\Program Files\\PyCharm 2024.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CQUPT\排课系统\pre-schedule-sys-main" />
+      <recent name="D:\CQUPT\排课系统\pre-schedule-sys-main\backend" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4787e5b-9b5d-4bcf-ae66-38fabf66d4e5" name="Changes" comment="" />
+      <created>1739942734757</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739942734757</updated>
+      <workItem from="1739942735301" duration="2832000" />
+      <workItem from="1739946234198" duration="3243000" />
+      <workItem from="1739949497739" duration="1822000" />
+      <workItem from="1740020667868" duration="1547000" />
+      <workItem from="1740069041696" duration="550000" />
+      <workItem from="1740132785030" duration="1018000" />
+      <workItem from="1740208662930" duration="4718000" />
+      <workItem from="1740381415134" duration="4599000" />
+      <workItem from="1740471698771" duration="1399000" />
+      <workItem from="1740475230991" duration="111000" />
+      <workItem from="1740636260701" duration="1121000" />
+      <workItem from="1740637413642" duration="1896000" />
+      <workItem from="1740639482202" duration="2502000" />
+      <workItem from="1740647244803" duration="720000" />
+      <workItem from="1740733488658" duration="628000" />
+      <workItem from="1740900783672" duration="4535000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1739945812966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739945812966</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix some bugs in history_course search">
+      <option name="closed" value="true" />
+      <created>1739950388093</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739950388093</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update frontend code">
+      <option name="closed" value="true" />
+      <created>1739950516393</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739950516393</updated>
+    </task>
+    <task id="LOCAL-00004" summary="modify the data">
+      <option name="closed" value="true" />
+      <created>1739950702780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739950702780</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix some bugs and update sql data">
+      <option name="closed" value="true" />
+      <created>1740905336409</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740905336409</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update frontend code and delete useless sql file">
+      <option name="closed" value="true" />
+      <created>1740905804014</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740905804014</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="fix some bugs in history_course search" />
+    <MESSAGE value="update frontend code" />
+    <MESSAGE value="modify the data" />
+    <MESSAGE value="fix some bugs and update sql data" />
+    <MESSAGE value="update frontend code and delete useless sql file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update frontend code and delete useless sql file" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pre_schedule_sys_main$.coverage" NAME="本学年课程信息导入 Coverage Results" MODIFIED="1739942887792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/app_py$app.coverage" NAME="app Coverage Results" MODIFIED="1740906127175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/pre_schedule_sys_main$app.coverage" NAME="app Coverage Results" MODIFIED="1740208714982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+  </component>
+</project>
