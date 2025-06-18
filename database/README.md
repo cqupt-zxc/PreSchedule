@@ -34,7 +34,7 @@ CREATE DATABASE IF NOT EXISTS pre_schedule_sys CHARACTER SET utf8mb4 COLLATE utf
 USE pre_schedule_sys;
 ```
 
-4. 导入表结构和数据：
+4. 导入表结构和自定义数据：
 ```bash
 # Windows 环境下
 mysql -u root -p pre_schedule_sys < user_info.sql
@@ -47,6 +47,53 @@ mysql -u root -p pre_schedule_sys < user_info.sql
 mysql -u root -p pre_schedule_sys < 教师信息.sql
 mysql -u root -p pre_schedule_sys < 本学年课程信息.sql
 mysql -u root -p pre_schedule_sys < 历史课表.sql
+```
+表结构导入完成后，你需要根据自己的实际情况向数据库中插入数据。你可以将下面各表的插入语句示例，根据实际信息进行替换，然后保存为一个名为 your_custom_data.sql 的文件，最后使用该文件导入自定义数据。
+user_info 表
+```sql
+-- 插入用户信息示例
+INSERT INTO pre_schedule_sys.user_info (id, account, password, role) VALUES (1, 'your_account', '$2b$12$your_password_hash', 'your_role');
+id：用户的唯一标识，为整数类型。
+account：用户的账号，可根据实际情况修改。
+password：经过哈希处理后的密码，你需要自行生成。
+role：用户的角色，例如 user 或其他自定义角色。
+```
+教师信息表
+```sql
+-- 插入教师信息示例
+INSERT INTO pre_schedule_sys.教师信息 (序号, 姓名, 职工号, 办公电话, 移动电话, 电子邮箱, 备注) VALUES (1, 'your_teacher_name', 'your_employee_number', 'your_office_phone', 'your_mobile_phone', 'your_email', 'your_note');
+序号：教师的编号，为整数类型。
+姓名：教师的姓名，可根据实际情况修改。
+职工号：教师的职工编号，可根据实际情况修改。
+办公电话：教师的办公电话号码，可根据实际情况修改。
+移动电话：教师的移动电话号码，可根据实际情况修改。
+电子邮箱：教师的电子邮箱地址，可根据实际情况修改。
+备注：关于教师的备注信息，可根据实际情况修改。
+```
+本学年课程信息表
+```sql
+-- 插入本学年课程信息示例
+INSERT INTO pre_schedule_sys.本学年课程信息 (学年学期, 课程名称, 教师姓名, 学时, 头数, 学生人数, 总头数) VALUES ('your_semester', 'your_course_name', 'your_teacher_name', your_class_hours, your_headcount, your_student_number, your_total_headcount);
+学年学期：课程所在的学年和学期，格式如 20242。
+课程名称：课程的具体名称，可根据实际情况修改。
+教师姓名：授课教师的姓名，可根据实际情况修改。
+学时：课程的总学时数，为整数类型。
+头数：课程的开课数量，为整数类型。
+学生人数：选修该课程的学生数量，为整数类型。
+总头数：课程的总开课数量，为整数类型。
+```
+历史课表
+```sql
+-- 插入历史课表信息示例
+INSERT INTO `历史课表` (`学年学期`, `课程名称`, `任课教师`) VALUES ('your_semester', 'your_course_name', 'your_teacher_name');
+
+学年学期：课程所在的学年和学期，格式如 20191。
+课程名称：课程的具体名称，可根据实际情况修改。
+任课教师：授课教师的姓名，可根据实际情况修改。
+```
+在替换上述示例中的信息后，将这些 SQL 语句保存为 your_custom_data.sql 文件，然后使用以下命令导入到数据库中：
+```bash
+mysql -u root -p pre_schedule_sys < your_custom_data.sql
 ```
 
 ## 数据库备份
